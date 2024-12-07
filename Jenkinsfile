@@ -5,6 +5,7 @@ pipeline {
             steps {
                 git branch: 'master', url: "https://github.com/JesuDvS/ProyectosJavaPersonal.git"
             }
+
         }
         stage('Construir aplicación') {
             steps {
